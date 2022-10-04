@@ -10,6 +10,6 @@ Console based interactions with colors and characters
 
 
 ## TODO
-- Fix issue regarding not handling Capital letters same as 
+- Fix issue regarding not handling Capital letters same as small letters
 - Add multiplayer feature 1vs1 with sockets (FireBase maybe)
 - Implement GUI instead of console
