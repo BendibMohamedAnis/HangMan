@@ -11,5 +11,6 @@ Console based interactions with colors and characters
 
 ## TODO
 - Fix issue regarding not handling Capital letters same as small letters
+- Add list of words and randomizer function to choose a word randomly from the list
 - Add multiplayer feature 1vs1 with sockets (FireBase maybe)
 - Implement GUI instead of console
