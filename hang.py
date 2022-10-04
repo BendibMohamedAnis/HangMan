@@ -2,6 +2,20 @@ from operator import truediv
 import turtle
 import sys
 from time import sleep
+
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
 def fillDisplay(display,letter,pos):
     for i in range(len(pos)):
             display[pos[i]]=str('[ ')+str(letter)+str(' ] ')
@@ -42,24 +56,24 @@ if __name__ == "__main__":
         if life>0:
             res=False
             pos=[]
-            guess=input(" GUESS ONE LETTER: ")
+            guess=input(bcolors.HEADER+" GUESS ONE LETTER: "+bcolors.ENDC )
             if len(guess)==1:
                 res,pos=exist(guess,word)
                 
                 if res:
-                    print('You got the letter "', guess , '" Right ! on ',len(pos)," position(s)" )
+                    print(bcolors.OKGREEN +'You got the letter "', guess , '" Right ! on ',len(pos)," position(s)" +bcolors.ENDC)
                     dispay = fillDisplay(display,guess,pos)
                     print(display)
                 else:
                     life=life-1
-                    print('Wrong letter , lifes left: ',life)
+                    print(bcolors.FAIL+'Wrong letter , lifes left: '+bcolors.ENDC,life)
                     print(display)
 
                 if checkEnd(display)==True:
-                    print('Game Concluded , YOU WON ! ')
+                    print(bcolors.WARNING+'Game Concluded , YOU WON ! '+bcolors.ENDC)
                     break
             else:
-                print('No no no , only 1 letter at a time')
+                print(bcolors.FAIL+'No no no , only 1 letter at a time'+bcolors.ENDC)
         else:
-            print('Game Ended , You lost!')
+            print(bcolors.WARNING+'Game Ended , You lost!'+bcolors.ENDC)
             break
