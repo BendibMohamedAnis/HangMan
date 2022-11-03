@@ -30,7 +30,7 @@ Console based interactions with colors and characters
 ## TODO
 - Fix issue to show menu when winning or loosing ( specially for winning so it doesn't continue taking inputs )
 - Improve GUI
-- Improve messages diaplyed
+- Improve messages displyed
 - Add menu for settings / exit / play again
 - Add possibility to replay game without relunching script
 - Add multiplayer feature 1vs1 with sockets (FireBase maybe)
