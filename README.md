@@ -23,7 +23,8 @@ Console based interactions with colors and characters
 ![image](https://user-images.githubusercontent.com/46926963/199738611-3f2ab705-a937-4a67-9858-b2e6b05d35d0.png)
 
 
-![image](https://user-images.githubusercontent.com/46926963/199738731-6136b819-4d26-4239-96cf-9fb8992ffeb2.png)
+![image](https://user-images.githubusercontent.com/46926963/199739116-0b6e46d4-071f-471a-b2ca-96126a8e213f.png)
+
 
 
 ## TODO
