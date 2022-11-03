@@ -3,7 +3,6 @@ import turtle
 import sys
 from time import sleep
 
-
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -45,7 +44,7 @@ def checkEnd(display):
 
 if __name__ == "__main__":
 
-    word="Test"
+    word="test"
     life=8
     display=[None] * len(word)
 
