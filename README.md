@@ -35,3 +35,6 @@ Console based interactions with colors and characters
 - Add possibility to replay game without relunching script
 - Add multiplayer feature 1vs1 with sockets (FireBase maybe)
 
+
+
+
