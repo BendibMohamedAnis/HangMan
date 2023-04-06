@@ -1,6 +1,6 @@
 ## HangMan
 
-HangMan game with python , enter letters and guess the word before the man gets hanged
+HangMan is a project I created using Python . It is a classic word-guessing game where the player has to guess a secret word by suggesting letters one by one. The game is played with two players, where one player thinks of a word and the other player tries to guess it by suggesting letters. For each incorrect guess, a part of a hangman is drawn. The game ends when the player either guesses the word or the hangman is fully drawn.
 
 ## Vesion 1
 
